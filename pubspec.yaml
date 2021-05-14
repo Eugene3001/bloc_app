@@ -26,6 +26,7 @@ dependencies:
 
   http: ^0.13.3
   flutter_bloc: ^7.0.0
+  cached_network_image: ^3.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -44,7 +45,6 @@ flutter:
     - lib/icon/ic_search_white.png
     - lib/icon/ic_check_circle_white.png
     - lib/icon/ic_add_black.png
-    - lib/icon/MyFlutterApp.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

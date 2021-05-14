@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => UserBloc(NoUsersState, userRepository),
+      create: (context) => UserBloc(userRepository),
       child: Scaffold(
         appBar: AppBar(
           title: const Text("Inbox"),
